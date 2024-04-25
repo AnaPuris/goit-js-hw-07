@@ -20,9 +20,9 @@ function createBoxes(amount) {
     fragment.appendChild(box);
     size = size + 10;
   }
-}
 
-boxesContainer.appendChild(fragment);
+  boxesContainer.appendChild(fragment);
+}
 
 function destroyBoxes() {
   const boxesContainer = document.querySelector('#boxes');
